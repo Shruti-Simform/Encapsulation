@@ -5,7 +5,7 @@ class Encapsulation {
         System.out.println("--- Employee Info ---");
         emp.setEmplID(1);
         emp.setName("Shruti");
-        System.out.print("ID : " + emp.getEmplId() + "  ");
+        System.out.println("ID : " + emp.getEmplId());
         System.out.println("Name : " + emp.getName());
     }
 }
